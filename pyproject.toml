@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "zhsentence"
+version = "0.1.0"
+description = ""
+authors = ["patarapolw <patarapolw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+jieba = "^0.39.0"
+wordfreq = "^2.2"
+
+[tool.poetry.dev-dependencies]
+zhlib = {path = "../zhlib"}
