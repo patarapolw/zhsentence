@@ -5,12 +5,12 @@ from zhsentence.util import get_freq, zh_split
 all_entries = list()
 
 for vocab in zh_split('''
-课堂，沉睡，酒桌，埋醉
-一斤，感觉，绝对
-实行，凭什么，平等，厕所
-
-客服人员，权，答这答那
-实现，承诺，艹你妈
+打扮，不满，世界
+避孕，辟邪，长得，贴
+小蜜，怀孕，老婆，打闹，跑掉，上司
+被人，利用
+紧张，填，岳母，栏目，挺好
+连，广告
 '''):
     entry = [''] * 7
     entry[1] = vocab
